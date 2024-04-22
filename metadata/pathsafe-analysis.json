@@ -10,7 +10,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ],
             "restrictions": [
                 "Max length: 12"
@@ -23,7 +24,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ],
             "restrictions": [
                 "Input formats: iso-8601",
@@ -37,7 +39,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ],
             "values": [
                 "APHA",
@@ -55,7 +58,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ],
             "restrictions": [
                 "Max length: 50"
@@ -68,7 +72,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ],
             "restrictions": [
                 "Max length: 50"
@@ -81,7 +86,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ],
             "restrictions": [
                 "Max length: 100"
@@ -94,7 +100,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ],
             "values": [
                 "illumina"
@@ -107,7 +114,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ]
         },
         "enterobase_barcode": {
@@ -117,7 +125,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ]
         },
         "collection_date": {
@@ -127,7 +136,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ],
             "restrictions": [
                 "Input formats: YYYY-MM",
@@ -141,7 +151,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ],
             "restrictions": [
                 "Input formats: YYYY-MM",
@@ -155,7 +166,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ]
         },
         "year": {
@@ -165,7 +177,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ]
         },
         "sequence_org": {
@@ -175,7 +188,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ],
             "values": [
                 "APHA",
@@ -193,7 +207,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ],
             "restrictions": [
                 "Requires: sequence_org"
@@ -206,7 +221,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ],
             "values": [
                 "APHA",
@@ -226,7 +242,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ],
             "restrictions": [
                 "Required when data_steward is: OTHER"
@@ -239,7 +256,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ],
             "values": [
                 "animal",
@@ -265,7 +283,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ],
             "values": [
                 "GB",
@@ -282,7 +301,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ],
             "values": [
                 "GB-ABC",
@@ -514,7 +534,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ],
             "values": [
                 "active_surveillance",
@@ -538,7 +559,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ],
             "restrictions": [
                 "Required when sample_purpose is: other"
@@ -551,7 +573,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ]
         },
         "library_kit": {
@@ -561,7 +584,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ]
         },
         "is_multiplexed": {
@@ -571,7 +595,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ]
         },
         "type_of_sample": {
@@ -581,7 +606,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ],
             "default": "genomic",
             "values": [
@@ -595,7 +621,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ]
         },
         "pathogenwatch_uuid": {
@@ -605,7 +632,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ]
         }
     }

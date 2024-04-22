@@ -10,7 +10,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ],
             "restrictions": [
                 "Max length: 12"
@@ -23,7 +24,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ],
             "restrictions": [
                 "Input formats: iso-8601",
@@ -37,7 +39,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ],
             "values": [
                 "bham",
@@ -53,7 +56,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ],
             "restrictions": [
                 "Max length: 50"
@@ -66,7 +70,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ],
             "restrictions": [
                 "Max length: 50"
@@ -79,7 +84,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ],
             "restrictions": [
                 "Max length: 100"
@@ -92,7 +98,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ],
             "values": [
                 "illumina",
@@ -106,7 +113,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ],
             "values": [
                 "community_standard",
@@ -123,7 +131,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ],
             "values": [
                 "respiratory_infection"
@@ -139,7 +148,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ],
             "values": [
                 "water_extraction_control"
@@ -156,7 +166,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ],
             "values": [
                 "blood",
@@ -179,7 +190,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ],
             "values": [
                 "aspirate",
@@ -197,7 +209,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ],
             "values": [
                 "none"
@@ -210,7 +223,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ],
             "restrictions": [
                 "Input formats: YYYY-MM, YYYY-MM-DD",
@@ -225,7 +239,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ],
             "restrictions": [
                 "Input formats: YYYY-MM, YYYY-MM-DD",
@@ -240,7 +255,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ],
             "default": false
         },
@@ -251,7 +267,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ],
             "restrictions": [
                 "Max length: 100"
@@ -264,7 +281,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ]
         },
         "study_centre_id": {
@@ -274,7 +292,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ],
             "restrictions": [
                 "Max length: 100"
@@ -287,7 +306,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ],
             "values": [
                 "clinical",
@@ -301,7 +321,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ],
             "default": "no_consent_for_research",
             "values": [
@@ -317,7 +338,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ],
             "values": [
                 "GB",
@@ -334,7 +356,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ],
             "values": [
                 "GB-ABC",
@@ -566,7 +589,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ]
         },
         "library_protocol": {
@@ -576,7 +600,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ]
         },
         "sequencing_protocol": {
@@ -586,7 +611,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ]
         },
         "bioinformatics_protocol": {
@@ -596,7 +622,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ]
         },
         "dehumanisation_protocol": {
@@ -606,7 +633,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ]
         },
         "is_public_dataset": {
@@ -616,7 +644,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ],
             "default": false
         },
@@ -627,7 +656,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ],
             "values": [
                 "ENA",
@@ -641,7 +671,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ]
         },
         "ingest_report": {
@@ -651,7 +682,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ]
         },
         "taxon_reports": {
@@ -661,7 +693,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ]
         },
         "human_filtered_reads_1": {
@@ -671,7 +704,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ]
         },
         "human_filtered_reads_2": {
@@ -681,7 +715,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ]
         },
         "unclassified_reads_1": {
@@ -691,7 +726,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ]
         },
         "unclassified_reads_2": {
@@ -701,7 +737,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ]
         },
         "viral_reads_1": {
@@ -711,7 +748,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ]
         },
         "viral_reads_2": {
@@ -721,7 +759,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ]
         },
         "viral_and_unclassified_reads_1": {
@@ -731,7 +770,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ]
         },
         "viral_and_unclassified_reads_2": {
@@ -741,7 +781,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ]
         },
         "classifier": {
@@ -751,7 +792,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ],
             "values": [
                 "Kraken2"
@@ -764,7 +806,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ]
         },
         "classifier_db": {
@@ -774,7 +817,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ],
             "values": [
                 "PlusPF"
@@ -787,7 +831,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ],
             "restrictions": [
                 "Input formats: YYYY-MM-DD",
@@ -801,7 +846,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ],
             "restrictions": [
                 "Input formats: YYYY-MM-DD",
@@ -815,7 +861,8 @@
             "actions": [
                 "get",
                 "list",
-                "filter"
+                "filter",
+                "history"
             ]
         },
         "taxa_files": {
