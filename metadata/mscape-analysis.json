@@ -871,7 +871,8 @@
             "required": false,
             "actions": [
                 "get",
-                "filter"
+                "filter",
+                "history"
             ],
             "fields": {
                 "taxon_id": {
@@ -966,7 +967,8 @@
             "required": false,
             "actions": [
                 "get",
-                "filter"
+                "filter",
+                "history"
             ],
             "fields": {
                 "taxon_id": {
