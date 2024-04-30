@@ -34,8 +34,6 @@ theme:
 plugins:
   - search
   - git-revision-date-localized
-  - macros:
-      include_dir: include
   - mkdocstrings:
       default_handler: python
       handlers:
