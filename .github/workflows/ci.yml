@@ -33,5 +33,5 @@ jobs:
           pip install mkdocstrings[python]
           pip install mkdocs-macros-plugin
           pip install mkdocs-with-pdf
-          find docs -iname "*.md" | xargs -I{} sh -c "echo >> {}; echo {% include \'footer.md\' %} >> {}"
+          pip install mkdocs-git-revision-date-localized-plugin
       - run: mkdocs gh-deploy --force
