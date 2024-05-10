@@ -33,8 +33,10 @@ theme:
 
 plugins:
   - search
-  - macros:
-      include_dir: include
+  - git-revision-date-localized:
+      timezone: Europe/London
+      type: custom
+      custom_format: "Last modified %Y-%m-%d %X %z"
   - mkdocstrings:
       default_handler: python
       handlers:
