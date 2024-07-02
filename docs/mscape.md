@@ -18,8 +18,9 @@ For *ONT* sequencing data, suppliers must provide:
 * A FASTQ file containing the sequencing reads.
 * A CSV file containing the metadata associated with sequencing the sample.
 
-Sequencing data must be dehumanised.  The ingest pipeline will reject
-uploads that have too much human data.
+Sequencing data must be dehumanised prior to submission. The ingest pipeline 
+will reject sequencing data where the number of assigned human reads exceeds the
+human read rejection threshold.
 
 ## File naming convention
 
