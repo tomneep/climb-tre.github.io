@@ -72,8 +72,7 @@ This CSV file must have two rows:
 2. the actual metadata.
 
 It's filename must match the FASTQ files but with the extension `csv` instead
-of `1.fastq.gz` or `2.fastq.gz` (or `fastq.gz` if you're trying a single read
-upload.
+of `1.fastq.gz` or `2.fastq.gz` (or `fastq.gz` if your data is single ended).
 
 For the sake of our test and getting to know the system, you should try to
 create such a file by hand by referring to the relevant metadata spec.

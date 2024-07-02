@@ -8,6 +8,11 @@ For *paired-end Illumina* sequencing data, suppliers must provide:
 * A FASTQ 2 file containing the reverse sequencing reads.
 * A CSV file containing the metadata associated with sequencing the sample.
 
+For *single-end Illumina* sequencing data, suppliers must provide:
+
+* A FASTQ file containing the sequencing reads.
+* A CSV file containing the metadata associated with sequencing the sample.
+
 For *ONT* sequencing data, suppliers must provide:
 
 * A FASTQ file containing the sequencing reads.
@@ -33,6 +38,11 @@ For *paired-end Illumina* sequencing data, the extensions (`[extension]`) should
 
 * `1.fastq.gz` for the forward FASTQ file.
 * `2.fastq.gz` for the reverse FASTQ file.
+* `csv` for the CSV metadata file.
+
+For *single-end Illumina* sequencing data, the extensions (`[extension]`) should be:
+
+* `fastq.gz` for the forward FASTQ file.
 * `csv` for the CSV metadata file.
 
 For *ONT* sequencing data, the extensions (`[extension]`) should be:
