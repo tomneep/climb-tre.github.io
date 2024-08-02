@@ -88,6 +88,7 @@
                 "NIBSC_11/242",
                 "NIBSC_20/170",
                 "water_extraction_control",
+                "zepto_rp2.1",
                 "zymo-mc_D6300"
             ],
             "restrictions": [
@@ -145,6 +146,7 @@
                 "ms2-phage",
                 "none",
                 "phix",
+                "tobacco_mosaic_virus",
                 "zymo_D6320",
                 "zymo_D6321"
             ]
@@ -197,13 +199,13 @@
         },
         "study_id": {
             "description": "Used to identify study or if NHS residual sample.",
-            "type": "choice",
+            "type": "text",
             "required": false,
             "actions": [
                 "add"
             ],
-            "values": [
-                "PRJNA818777"
+            "restrictions": [
+                "Max length: 100"
             ]
         },
         "study_centre_id": {
