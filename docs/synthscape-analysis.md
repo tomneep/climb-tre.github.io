@@ -1,0 +1,2 @@
+# synthSCAPE Analysis Specification
+

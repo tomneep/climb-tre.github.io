@@ -79,4 +79,7 @@ nav:
     - mSCAPE: 
       - Uploader specification: mscape.md
       - Analysis specification: mscape-analysis.md
+    - synthSCAPE:
+      - Uploader specification: synthscaoe.md
+      - Analysis specification: synthscape-analysis.md
   - Onyx-client: https://CLIMB-TRE.github.io/onyx-client/
