@@ -123,7 +123,10 @@ def analysis_spec(fields, spec, prefix=""):
         if v.get("restrictions"):
             for restriction in v["restrictions"]:
                 condition, _, value = restriction.partition(": ")
-                if "output format" in condition.lower():
+                if (
+                    "output format" in condition.lower()
+                    or "array type" in condition.lower()
+                ):
                     restrictions.append("• " + ": ".join([condition, f"`{value}`"]))
 
         if v.get("values"):
