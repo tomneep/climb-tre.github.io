@@ -13,6 +13,7 @@ Then select the results bucket by clicking on it, the name of the results bucket
 ![results bucket page](bryn_results_bucket.png)
 
 There will be up to two types of file present in this S3 bucket; result JSON files and linkage JSON files.
+
 * Result JSON files are named with the following pattern: `{project}.{run_index}.{run_id}.result.json` and contain all the relevant information about your sample including errors during the ingest process, issues with the metadata CSV, etc.
 * Linkage JSON files are named with the following pattern: `{project}.{run_index}.{run_id}.linkage.json`, these are only generated once when the ingest for that run_index and run_id has been successful and the artifact has been ingested into the dataset. It contains data which can be used to link the submitted file names with the anonymised identifiers in the main dataset, you are responsible for maintaining this linkage information and have the ability to delete it from your results bucket, if you do and lose linkage **we WILL NOT be able to establish linkage for you**. 
 
@@ -80,4 +81,3 @@ A result JSON will look similar to this:
 If the submission was successful there will be no `onyx_test_create_errors` or `ingest_errors` fields present and the `created` / `published` fields will both be "true".
 
 Any metadata issues will be defined in the `onyx_test_create_errors` field separated by the field to which the issue applies, we hope that the errors should be fairly readable and self explanatory but if not the please contact the CLIMB-TRE team for assistance.
-
