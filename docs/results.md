@@ -18,6 +18,7 @@ There will be up to two types of file present in this S3 bucket; result JSON fil
 * Linkage JSON files are named with the following pattern: `{project}.{run_index}.{run_id}.linkage.json`, these are only generated once when the ingest for that run_index and run_id has been successful and the artifact has been ingested into the dataset. It contains data which can be used to link the submitted file names with the anonymised identifiers in the main dataset, you are responsible for maintaining this linkage information and have the ability to delete it from your results bucket, if you do and lose linkage **we WILL NOT be able to establish linkage for you**. 
 
 To find the result for a specific artifact you can search, the search function requires a full match from the start of the file name, e.g. for a file named `synthscape.1.some_run_id.result.json`
+
 * `1.some_run_id` **will not** match the file
 * `synthscape.1.some_run_id` **will** match the file
 
