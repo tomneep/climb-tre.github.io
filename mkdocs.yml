@@ -69,6 +69,7 @@ nav:
   - Getting started:
     - Uploading data: upload.md
     - Analysing data: analyse.md
+    - Finding Submission Results: results.md
     - Further Examples:
       - Analysis examples for mSCAPE: mscape-examples.md
   - Project specifications:
