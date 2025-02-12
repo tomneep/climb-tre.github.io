@@ -83,4 +83,7 @@ nav:
     - synthSCAPE:
       - Uploader specification: synthscape.md
       - Analysis specification: synthscape-analysis.md
+    - openMGS:
+      - Uploader specification: openmgs.md
+      - Analysis specification: openmgs-analysis.md
   - Onyx-client: https://CLIMB-TRE.github.io/onyx-client/

@@ -1,0 +1,2 @@
+# openMGS Analysis Specification
+
