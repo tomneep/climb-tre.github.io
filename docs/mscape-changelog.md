@@ -20,6 +20,8 @@ The following DIPI projects are routinely using this CHANGELOG.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+Issues can be reported to the [mSCAPE DIPI group](https://github.com/CLIMB-TRE/mscape-dipi-group).
+
 ***
 # 2025-03-06
 ## All
