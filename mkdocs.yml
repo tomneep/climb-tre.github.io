@@ -80,6 +80,7 @@ nav:
     - mSCAPE: 
       - Uploader specification: mscape.md
       - Analysis specification: mscape-analysis.md
+      - Infrastructure changes: mscape-changelog.md
     - synthSCAPE:
       - Uploader specification: synthscape.md
       - Analysis specification: synthscape-analysis.md
