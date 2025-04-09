@@ -33,6 +33,9 @@ def uploader_spec(
 ):
 
     for k, v in fields.items():
+        if "add" not in v["actions"]:
+            continue
+        
         restrictions = []
         at_least_one_required_keys = []
 
