@@ -39,3 +39,4 @@ The `[run_index]`, `[run_id]` and `[extension]` must contain only:
 
 ## Metadata specification
 
+Uploader Template CSV: [pathsafe-template.csv](pathsafe-template.csv){:download}

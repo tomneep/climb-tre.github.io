@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+import csv
+import sys
 import json
 import copy
 from argparse import ArgumentParser
@@ -16,6 +18,9 @@ uploader_parser.add_argument("json_filename", type=str)
 analysis_parser = command.add_parser("analysis")
 analysis_parser.add_argument("json_filename", type=str)
 
+template_parser = command.add_parser("template")
+template_parser.add_argument("json_filename", type=str)
+
 args = parser.parse_args()
 
 
@@ -31,11 +36,10 @@ def uploader_spec(
     at_least_one_required_headers,
     prefix="",
 ):
-
     for k, v in fields.items():
         if "add" not in v["actions"]:
             continue
-        
+
         restrictions = []
         at_least_one_required_keys = []
 
@@ -210,3 +214,10 @@ elif args.command == "analysis":
 
     print("#" * args.depth + "# Analysis fields\n")
     print("".join(["| " + " | ".join(row) + " |\n" for row in spec]))
+
+elif args.command == "template":
+    template_fields = [
+        field for field in j["fields"] if "add" in j["fields"][field]["actions"]
+    ]
+    writer = csv.writer(sys.stdout)
+    writer.writerow(template_fields)

@@ -73,3 +73,4 @@ openmgs-[sequencing_org]-[platform]-[test_flag]
 
 ## Metadata specification
 
+Uploader Template CSV: [openmgs-template.csv](openmgs-template.csv){:download}
