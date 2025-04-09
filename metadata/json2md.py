@@ -221,3 +221,4 @@ elif args.command == "template":
     ]
     writer = csv.writer(sys.stdout)
     writer.writerow(template_fields)
+    writer.writerow([])

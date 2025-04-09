@@ -73,4 +73,4 @@ synthscape-[sequencing_org]-[platform]-[test_flag]
 
 ## Metadata specification
 
-Uploader Template CSV: [synthscape-template.csv](synthscape-template.csv){:download}
+A CSV template for uploaders can be downloaded [here](synthscape-template.csv){:download=synthscape-template.csv}.
