@@ -24,6 +24,12 @@ Issues can be reported to the [mSCAPE DIPI group](https://github.com/CLIMB-TRE/m
 
 ***
 
+# 2025-07-02
+## Onyx
+### Added
+* Added `total_bases` field, for recording the number of bases in the input FASTQ file(s), before any filtering.
+* Added `taxa_files.total_bases` field, for recording the number of bases extracted for a taxa (assignable for each taxa within the `taxa_files` of a record).
+
 # 2025-05-08
 ## Scylla
 Released version 2.0.0. Given the number of changes, they are grouped by category rather than Added/Changed etc. 
