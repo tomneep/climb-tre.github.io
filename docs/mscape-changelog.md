@@ -24,6 +24,11 @@ Issues can be reported to the [mSCAPE DIPI group](https://github.com/CLIMB-TRE/m
 
 ***
 
+# 2025-08-05
+## Onyx
+### Added
+* Added `spike_in` option `bacillus_ms2phage`.
+
 # 2025-07-02
 ## Onyx
 ### Added
