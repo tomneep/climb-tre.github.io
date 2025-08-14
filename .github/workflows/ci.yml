@@ -21,21 +21,16 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: |
-          # Uploader specifications
-          python3 metadata/json2md.py -d 2 uploader metadata/mscape.json >> docs/mscape.md
-          python3 metadata/json2md.py -d 2 uploader metadata/synthscape.json >> docs/synthscape.md
-          python3 metadata/json2md.py -d 2 uploader metadata/openmgs.json >> docs/openmgs.md
-          python3 metadata/json2md.py -d 2 uploader metadata/pathsafe.json  >> docs/pathsafe.md
-          # Analysis specifications
-          python3 metadata/json2md.py -d 2 analysis metadata/mscape-analysis.json >> docs/mscape-analysis.md
-          python3 metadata/json2md.py -d 2 analysis metadata/synthscape-analysis.json >> docs/synthscape-analysis.md
-          python3 metadata/json2md.py -d 2 analysis metadata/openmgs-analysis.json >> docs/openmgs-analysis.md
-          python3 metadata/json2md.py -d 2 analysis metadata/pathsafe-analysis.json  >> docs/pathsafe-analysis.md
-          # Template CSVs
-          python3 metadata/json2md.py -d 2 template metadata/mscape.json > docs/mscape-template.csv
-          python3 metadata/json2md.py -d 2 template metadata/synthscape.json > docs/synthscape-template.csv
-          python3 metadata/json2md.py -d 2 template metadata/openmgs.json > docs/openmgs-template.csv
-          python3 metadata/json2md.py -d 2 template metadata/pathsafe.json > docs/pathsafe-template.csv
+          PROJECTS=(mscape synthscape openmgs pathsafe)
+          for p in ${PROJECTS}
+          do
+            # Uploader specifications
+            python3 metadata/json2md.py -d 2 uploader metadata/${p}.json >> docs/${p}.md
+            # Analysis specifications
+            python3 metadata/json2md.py -d 2 analysis metadata/${p}-analysis.json >> docs/${p}-analysis.md
+            # Template CSVs
+            python3 metadata/json2md.py -d 2 template metadata/${p}.json > docs/${p}-template.csv
+          done
           wget https://raw.githubusercontent.com/CLIMB-TRE/onyx-client/master/README.md -O docs/onyx_client_installation_guide.md
           # pip install 'onyx @ git+https://github.com/CLIMB-TRE/onyx-client@0b791a8237e0418aa42a2e0f98bac587d7afb95a'
           pip install climb-onyx-client
