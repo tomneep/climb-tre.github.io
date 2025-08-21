@@ -184,7 +184,6 @@ specific fields to include using e.g.
     entries = client.filter("mscape", fields=query, include=fields_to_include)
 	```
 
-
 ### Taxonomic information
 
 By default, the filter command will not return taxonomic
@@ -257,3 +256,8 @@ This is more efficient that not using the context manager as the
 client will re-use the same session for all requests, rather than
 creating a new session for each request. For more information, see:
 <https://requests.readthedocs.io/en/master/user/advanced/#session-objects`>
+
+## Next steps
+
+Complete documentation of Onyx for both the CLI and Python API can be
+found [here](https://CLIMB-TRE.github.io/onyx-client/).
